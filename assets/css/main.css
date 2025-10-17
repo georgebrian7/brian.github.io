@@ -674,6 +674,7 @@ section,
 .hero .container {
   position: relative;
   z-index: 3;
+  left: 400px;
 }
 
 .hero h2 {
