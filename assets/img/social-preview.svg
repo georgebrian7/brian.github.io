@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#0d6efd"/>
+  <text x="60" y="160" font-family="Poppins, Arial, sans-serif" font-size="48" fill="#fff">George Brian Mecha</text>
+  <text x="60" y="220" font-family="Roboto, Arial, sans-serif" font-size="28" fill="#e6f0ff">Full-Stack Developer · Django · React · AI Integration</text>
+  <rect x="60" y="260" width="460" height="2" fill="#fff" opacity="0.2" />
+  <text x="60" y="320" font-family="Roboto, Arial, sans-serif" font-size="20" fill="#f7fbff">Nairobi, Kenya · brianmecha021@gmail.com · github.com/georgebrian7</text>
+</svg>
