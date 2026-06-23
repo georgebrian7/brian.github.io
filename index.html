@@ -4,23 +4,32 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>George Brian Mecha - Full Stack Developer & Web Designer | Portfolio</title>
-  <meta name="description" content="Full stack web developer based in Nairobi. Specializing in Python, Django, JavaScript, React, and responsive web design. View my portfolio of successful projects including e-commerce platforms and guest management systems.">
+  <title>George Brian Mecha — Full Stack Developer & Web Designer | Portfolio</title>
+  <link rel="canonical" href="https://georgebrian7.github.io/brian.github.io/">
+  <meta name="description" content="George Brian Mecha — Full Stack Web Developer (Django, React) based in Nairobi. I build AI-enhanced e-commerce platforms, visitor management systems and scalable web apps. View projects, case studies and contact me for collaborations.">
   <meta name="keywords" content="full stack developer, web developer, Python, Django, JavaScript, React, web designer, Nairobi, portfolio">
   <meta name="author" content="George Brian Mecha">
   <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#0d6efd">
+
+  <!-- Open Graph / Social -->
   <meta property="og:title" content="George Brian Mecha - Full Stack Developer">
   <meta property="og:description" content="Explore my portfolio of full stack web development projects and professional experience.">
   <meta property="og:type" content="website">
+  <meta property="og:url" content="https://georgebrian7.github.io/brian.github.io/">
+  <meta property="og:image" content="https://georgebrian7.github.io/brian.github.io/assets/img/social-preview.svg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="George Brian Mecha - Full Stack Developer">
+  <meta name="twitter:description" content="Full Stack Developer (Django · React) building scalable web apps and AI integrations.">
+  <meta name="twitter:image" content="https://georgebrian7.github.io/brian.github.io/assets/img/social-preview.svg">
 
   <!-- Favicons -->
-  <!-- <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon"> -->
+  <link rel="icon" href="assets/img/favicon.png">
 
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com" rel="preconnect">
   <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,5[...]" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -31,6 +40,27 @@
 
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"Person",
+    "name":"George Brian Mecha",
+    "url":"https://georgebrian7.github.io/brian.github.io/",
+    "email":"mailto:brianmecha021@gmail.com",
+    "jobTitle":"Full-Stack Developer",
+    "address": {
+      "@type":"PostalAddress",
+      "addressLocality":"Nairobi",
+      "addressCountry":"KE"
+    },
+    "sameAs":[
+      "https://github.com/georgebrian7",
+      "https://www.linkedin.com/in/george-brian-964528313/"
+    ]
+  }
+  </script>
 
 </head>
 
@@ -80,6 +110,7 @@
               </li>
             </ul>
           </li>
+          <li><a href="cv.html">CV</a></li>
           <li><a href="index.html#contact">Contact</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
@@ -93,15 +124,21 @@
     <!-- Hero Section -->
     <section id="hero" class="hero section dark-background">
 
-      <img src="assets/img/IMG_20250905_100917_198.jpg" alt="George Brian Mecha - Full Stack Developer" style="width:500px;height:800px" data-aos="fade-in">
+      <picture>
+        <source srcset="assets/img/hero.svg" type="image/svg+xml">
+        <img src="assets/img/IMG_20250905_100917_198.jpg" alt="George Brian Mecha - Full Stack Developer" class="hero-photo img-fluid" loading="lazy" data-aos="fade-in">
+      </picture>
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
-        <h2>George Brian Mecha</h2>
+        <h1 class="hero-name">George Brian Mecha</h1>
         <p>I'm a <span class="typed" data-typed-items="Full Stack Developer, Web Designer, AI Enthusiast"></span></p>
         <div class="social-links">
-          <a href="https://www.linkedin.com/in/george-brian-964528313/" title="LinkedIn Profile"><i class="bi bi-linkedin"></i></a>
-          <a href="https://github.com/georgebrian7" title="GitHub Profile"><i class="bi bi-github"></i></a>
+          <a href="https://www.linkedin.com/in/george-brian-964528313/" title="LinkedIn Profile" target="_blank" rel="noopener noreferrer"><i class="bi bi-linkedin"></i></a>
+          <a href="https://github.com/georgebrian7" title="GitHub Profile" target="_blank" rel="noopener noreferrer"><i class="bi bi-github"></i></a>
           <a href="mailto:brianmecha021@gmail.com?subject=Professional Inquiry" title="Send Email"><i class="bi bi-envelope"></i></a>
+        </div>
+        <div class="mt-3">
+          <a href="cv.html" class="btn btn-primary">Download CV</a>
         </div>
       </div>
 
@@ -123,7 +160,7 @@
           <div class="col-lg-7 content">
             <h3>Full Stack Web Developer based in Nairobi, crafting efficient, scalable web solutions.</h3>
             <p>
-              I am a passionate full stack web developer with expertise in building responsive, user-centric web applications. With a strong foundation in both frontend and backend technologies, I excel at translating design concepts into functional, high-performance solutions. My experience spans from initial system design through deployment, with a proven track record of delivering projects that meet and exceed client expectations.
+              I am a passionate full stack web developer with expertise in building responsive, user-centric web applications. With a strong foundation in both frontend and backend technologies, I design and deliver maintainable solutions that scale. I have experience integrating AI features into product search and recommendation flows, and I'm comfortable working across the stack from database design to deployment.
             </p>
             <ul>
               <li><i class="bi bi-check2-all"></i> <span>Responsive, efficient website design and development</span></li>
@@ -164,7 +201,7 @@
             <div>
               <h4 class="title">Education & Qualifications</h4>
               <p class="description">Academic achievements and professional certifications demonstrating technical expertise</p>
-              <a href="#" class="readmore stretched-link"><span>View CV</span><i class="bi bi-filetype-pdf"></i></a>
+              <a href="cv.html" class="readmore stretched-link"><span>View CV</span><i class="bi bi-filetype-pdf"></i></a>
             </div>
           </div>
 
@@ -353,7 +390,7 @@
                 <div class="portfolio-info">
                   <h4>VisitorGate</h4>
                   <p>Guest Management System (Team Project)</p>
-                  <a href="https://guest.zynamis.co.ke/" target="_blank" rel="noopener noreferrer" class="details-link" title="View Live Project"><i class="bi bi-link-45deg"></i></a>
+                  <a href="https://github.com/Rose-Irungu/kiosk" target="_blank" rel="noopener noreferrer" class="details-link" title="View Live Project"><i class="bi bi-link-45deg"></i></a>
                 </div>
               </div>
             </div>
@@ -364,7 +401,7 @@
                 <div class="portfolio-info">
                   <h4>Keshi Limited</h4>
                   <p>E-commerce Platform & Admin Dashboard (Team Lead)</p>
-                  <a href="https://www.keshilimited.com/" target="_blank" rel="noopener noreferrer" class="details-link" title="View Live Project"><i class="bi bi-link-45deg"></i></a>
+                  <a href="https://github.com/georgebrian7/TechhubShop" target="_blank" rel="noopener noreferrer" class="details-link" title="View Live Project"><i class="bi bi-link-45deg"></i></a>
                 </div>
               </div>
             </div>
@@ -460,7 +497,8 @@
         <a href="https://github.com/georgebrian7" title="GitHub" target="_blank" rel="noopener noreferrer"><i class="bi bi-github"></i></a>
       </div>
       <div class="copyright mt-3">
-        <p>&copy; 2025 <strong>George Brian Mecha</strong>. All rights reserved.</p>
+        <p>&copy; 2026 <strong>George Brian Mecha</strong>. All rights reserved.</p>
+        <p><a href="cv.html">Download CV</a></p>
       </div>
     </div>
   </footer>
